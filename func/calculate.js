@@ -17,7 +17,7 @@ export function calcDimensions(){
     const metragemUnica = calcMetragem()
     if(!isNaN(metragemUnica)) {
          const medidasD = Math.cbrt(metragemUnica)
-        document.getElementById('resultado').value = `≈ ${medidasD.toFixed(4)}`;
+        document.getElementById('resultado').value = `≈ ${medidasD.toFixed(4)} cm`;
     }
 }
 

@@ -8,7 +8,7 @@ function calcMetragem(){
         return NaN;
     }
 
-    document.getElementById('pesoCubado').value = `${pesoCubado.toFixed(2)} m³`
+    document.getElementById('pesoCubado').value = `${pesoCubado.toFixed(2).replace('.', ',')} m³`
     return metragemTotal / volumes
 }
 
@@ -17,7 +17,7 @@ export function calcDimensions(){
     const metragemUnica = calcMetragem()
     if(!isNaN(metragemUnica)) {
          const medidasD = Math.cbrt(metragemUnica)
-        document.getElementById('resultado').value = `≈ ${medidasD.toFixed(4)} cm`;
+        document.getElementById('resultado').value = `≈ ${medidasD.toFixed(4).replace('.', ',')} cm`;
     }
 }
 

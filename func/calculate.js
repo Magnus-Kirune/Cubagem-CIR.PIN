@@ -8,7 +8,7 @@ function calcMetragem(){
         return NaN;
     }
 
-    document.getElementById('pesoCubado').value = `${pesoCubado.toFixed(2).replace('.', ',')} m³`
+    document.getElementById('pesoCubado').value = `${pesoCubado.toFixed(2).replace('.', ',')}³`
     return metragemTotal / volumes
 }
 

@@ -21,5 +21,13 @@ export function calcDimensions(){
     }
 }
 
-
+export function clearDates(){
+    const inputs = document.querySelectorAll('input[type="text"]')
+    inputs.forEach(input => {
+      if(input.value.trim() !== ''){
+        input.value = input.defaultValue
+     }
+    })
+    
+}
 

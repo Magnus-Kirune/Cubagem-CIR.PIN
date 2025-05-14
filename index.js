@@ -1,5 +1,5 @@
 import { DashBoard } from "./use/dashboard.js";
-import { calcDimensions } from "./func/calculate.js";
+import { calcDimensions, clearDates } from "./func/calculate.js";
 
 //carregar dash
 window.onload = function(){
@@ -8,6 +8,11 @@ window.onload = function(){
     document.getElementById('calculator').addEventListener('submit', function(ev){
         ev.preventDefault()
         calcDimensions()
+    })
+
+    document.getElementById('makeClear').addEventListener('click', function(ev){
+        ev.preventDefault()
+        clearDates()
     })
 }
 

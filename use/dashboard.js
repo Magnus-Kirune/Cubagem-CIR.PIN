@@ -13,7 +13,10 @@ export function DashBoard(){
         <label for="resultado">Medidas<br><input id="resultado" type="text" name="resultado" disabled></label>
         <label for="resultado">Peso Cubado<br><input id="pesoCubado" type="text" name="resultado" disabled></label>
         </div><br><br>
+        <div id="buttons">
         <button type="submit" id="fazerCalculo">Calcular</button>
+        <button id="makeClear">Limpar</button>
+        </div>
      </form>
     </div>`
 }

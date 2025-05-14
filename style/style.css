@@ -52,11 +52,42 @@ input {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: 1s;
     
+}
+
+#fazerCalculo:hover{
+    background-color: rgb(29, 92, 29);
 }
 
 #result{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+#buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vh;
+}
+
+#makeClear{
+    border-radius: 5px;
+    height: 25px;
+    width: 30%;
+    padding: 1.75px;
+    background-color: rgb(211, 78, 78);
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    text-decoration: dotted;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+#makeClear:hover{
+    background-color: brown;
+    color: whitesmoke;
 }
 

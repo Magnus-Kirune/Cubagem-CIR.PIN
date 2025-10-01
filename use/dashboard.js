@@ -20,3 +20,11 @@ export function DashBoard(){
      </form>
     </div>`
 }
+
+export function dashBoardCalcFrete(){
+    //Logic to calculate Frete for Panservice and Rodofar.
+    const goToFreteCalc = document.getElementById("fretes")
+    goToFreteCalc.innerHTML = `
+        <button id="calcFrete">Fretes</button>
+    `
+}

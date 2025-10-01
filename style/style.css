@@ -1,14 +1,19 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 10vh;
     height: 97vh;
     box-sizing: border-box;
     font-family: sans-serif; /* Define uma fonte genérica */
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: rgb(131, 180, 157);
     font-size: 18px;
+}
+
+#contentSite {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5vh;
+    /*align-items: center;*/
+    /*justify-content: center;*/
 }
 
 input {
@@ -23,6 +28,7 @@ input {
 }
 
 #calcu-m {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,3 +97,21 @@ input {
     color: whitesmoke;
 }
 
+#calcFrete{
+    padding: 10px;
+    background-color:rgb(221, 183, 134);
+    color: black;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 70vh;
+    height: 6vh;
+    border-radius: 7px;
+    transition: 0.2s;
+    
+}
+
+#calcFrete:hover{
+    background-color:rgb(180, 136, 78);
+}

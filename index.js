@@ -1,9 +1,10 @@
-import { DashBoard } from "./use/dashboard.js";
+import { DashBoard, dashBoardCalcFrete } from "./use/dashboard.js";
 import { calcDimensions, clearDates } from "./func/calculate.js";
 
 //carregar dash
 window.onload = function(){
     DashBoard()
+    dashBoardCalcFrete()
 
     document.getElementById('calculator').addEventListener('submit', function(ev){
         ev.preventDefault()

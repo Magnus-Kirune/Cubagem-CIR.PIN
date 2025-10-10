@@ -3,8 +3,8 @@ import { calcDimensions, clearDates, fretePanservice, freteRodofar } from "./fun
 
 //carregar dash
 window.onload = function(){
+    //Area esquerda da volumetria!
     DashBoard()
-    
 
     document.getElementById('calculator').addEventListener('submit', function(ev){
         ev.preventDefault()
@@ -15,7 +15,7 @@ window.onload = function(){
         ev.preventDefault()
         clearDates()
     })
-
+    //Area da Direita dos Fretes
     dashFretes()
 
     document.getElementById('btCalcFrete').addEventListener('click', function(ev){

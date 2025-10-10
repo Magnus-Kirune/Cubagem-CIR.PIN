@@ -110,8 +110,8 @@ export function freteRodofar(){
             const minimo = dadosRod.minimo + (valor * 0.002)
             let taxaPeso = 0
 
-               if(peso > 100){
-                  taxaPeso = 0.20 * (peso - 100)
+               if(peso > 50){
+                  taxaPeso = 0.20 * (peso - 50)
                }
 
                return {

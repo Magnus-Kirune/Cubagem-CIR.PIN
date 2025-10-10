@@ -10,25 +10,23 @@ body {
 
 #contentSite {
     display: grid;
-    grid-template-columns: auto;
-    gap: 5vh;
-    /*align-items: center;*/
-    /*justify-content: center;*/
+    grid-template-columns: 1fr 1fr;
+    gap: 1vh;
 }
 
 input {
     padding: 5px;
-    border: 2px solid gray;
+    border: 2px solid rgb(126, 126, 126);
     caret-color: black;
     font-size: 16px;
     text-align: end;
     text-decoration: none;
-    border-radius: 2px;
+    border-radius: 3px;
+    
 
 }
 
 #calcu-m {
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,7 +57,6 @@ input {
     border-radius: 5px;
     cursor: pointer;
     transition: 1s;
-    
 }
 
 #fazerCalculo:hover{
@@ -89,7 +86,6 @@ input {
     border: 1px solid black;
     cursor: pointer;
     transition: 1s;
-    
 }
 
 #makeClear:hover{
@@ -109,9 +105,107 @@ input {
     height: 6vh;
     border-radius: 7px;
     transition: 0.2s;
-    
 }
 
 #calcFrete:hover{
     background-color:rgb(180, 136, 78);
+}
+
+#calcFreteT{
+    border: 1px double rgb(0, 0, 0);
+    width: 80vh;
+    height: 85vh;
+    color: whitesmoke;
+    border-radius: 7px;
+    background-color: rgb(96, 134, 115);
+}
+
+/*.oculto{
+    display: none;
+}
+    
+.visivel{
+    display: block;
+}*/
+
+#calc-transport{
+    padding: 5.5vh;
+}
+
+#area-de-calculo{
+    display: flex;
+    gap: 3vh;
+}
+
+
+#cidadesPanPan{
+    width: 35vh;
+    height: 3vh;
+    font-size: 12px;
+    text-align: right;
+}
+
+#cidadeInput{
+    text-align: left;
+    appearance: none;
+}
+
+#cidadesList{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select{
+    width: 20vh;
+    height: 5vh;
+    font-size: 16px;
+    text-align: center;
+}
+
+#transporters{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+
+#btCalcFrete{
+ padding: 10px;
+    background-color: rgb(1, 39, 1);
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#btCalcFrete:hover{
+    background-color: rgb(29, 92, 29);
+}
+
+.visivel{
+    display: block;
+}
+
+.oculto{
+    display: none !important;
+}
+
+#Panservice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Rodofar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cidadeInputRodofar {
+        text-align: center;
 }

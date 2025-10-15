@@ -19,36 +19,28 @@ export const fretesPanservice = {
         minimo: 39.00,
         fpKg: 0.39,
         cidades: [
-            "ARAPUA", "CACHOEIRA DOURADA", "CAMPO FLORIDO", "CAMPOS ALTOS", "CASCALHO RICO",
-            "COMENDADOR GOMES", "ESTRELA DO SUL", "GUARDA-MOR", "JOÃO PINHEIRO", "LAGAMAR",
-            "LAGOA GRANDE", "MATUTINA", "PARACATU", "PRATINHA", "PRESIDENTE OLEGARIO",
-            "SANTA ROSA DA SERRA", "TIROS", "UNAI", "VAZANTE", "RIO PARANAIBA (Abaeté dos Mendes)",
-            "CRUZEIRO DA FORTALEZA (Brejo Bonito)", "PATROCINIO (São João da Serra Negra)",
-            "UBERLANDIA (Tapuirama)", "CAMPINA VERDE (Honorópolis)", "LAGOA FORMOSA (Monjolinho de Minas)",
-            "PATROCINIO (Silvano)", "UBERABA",
-            "UBERLANDIA (Cruzeiro dos Peixoto)", "VAZANTE (Claro de Minas)"
-        ]
+    "ARAPUA", "CACHOEIRA DOURADA", "CAMPO FLORIDO", "CAMPOS ALTOS", "CASCALHO RICO",
+    "COMENDADOR GOMES", "ESTRELA DO SUL", "GUARDA-MOR", "JOÃO PINHEIRO", "LAGAMAR",
+    "LAGOA GRANDE", "MATUTINA", "PARACATU", "PRATINHA", "PRESIDENTE OLEGARIO",
+    "SANTA ROSA DA SERRA", "TIROS", "UNAI", "VAZANTE", "RIO PARANAIBA",
+    "CRUZEIRO DA FORTALEZA", "PATROCINIO", "UBERLANDIA", "CAMPINA VERDE", "LAGOA FORMOSA",
+    "UBERABA"
+]
     },
     
     T03: {
         minimo: 65.00,
         fpKg: 0.65,
         cidades: [
-            "AGUA COMPRIDA", "FRUTAL (Aparecida de Minas)", "ARINOS", "BONFINOPOLIS DE MINAS",
-            "BRASILANDIA DE MINAS", "BURITIS", "CABECEIRA GRANDE", "CHAPADA GAUCHA",
-            "ARAGUARI (Amanhece)", "DOM BOSCO", "DOURADOQUARA", "FORMOSO", "GRUPIARA",
-            "LUIZLANDIA DO OESTE", "NATALANDIA", "RIACHINHO", "SAO GONCALO DO ABAETE",
-            "TAPIRA", "URUANA DE MINAS", "URUCUIA", "VARJAO DE MINAS", "JOÃO PINHEIRO (Veredas)",
-            "JOÃO PINHEIRO (Canabrava)", "SANTA VITORIA (Chaveslandia)", "CARNEIRINHO (São Sebastião do Pontal)",
-            "ARAGUARI (Florestina)", "ARAGUARI (Piracaiba)", "ARINOS (Pic Sagarana)",
-            "ARINOS (Vila Bom Jesus)", "BURITIS (Serra Bonita)", "CAMPOS ALTOS (São Jerônimo dos Poções)",
-            "CARMO DO PARANAIBA (Quintinos)", "CARNEIRINHO (Estrela da Barra)", "CONCEICAO DAS ALAGOAS (Poncianos)",
-            "CONQUISTA (Guaxima)", "CONQUISTA (Jubai)", "COROMANDEL (Alegre)", "COROMANDEL (Santa Rosa dos Dourados)",
-            "ESTRELA DO SUL (Chapada de Minas)", "ESTRELA DO SUL (Santa Rita da Estrela)", "IBIA (Argentia)",
-            "IBIA (Tobati)", "JOÃO PINHEIRO (Caatinga)", "JOÃO PINHEIRO (Olhos D'agua do Oeste)",
-            "JOÃO PINHEIRO (Santa Luzia da Serra)", "LAGAMAR (São Braz)", "PATOS DE MINAS (Bom Sucesso de Patos)",
-            "PATOS DE MINAS (Chumbo)", "PATOS DE MINAS (Major Porto)", "PATOS DE MINAS (Pilar)", "PATOS DE MINAS (Pindalbas)", "BELO HORIZONTE"
-        ]
+    "AGUA COMPRIDA", "FRUTAL", "ARINOS", "BONFINOPOLIS DE MINAS",
+    "BRASILANDIA DE MINAS", "BURITIS", "CABECEIRA GRANDE", "CHAPADA GAUCHA",
+    "ARAGUARI", "DOM BOSCO", "DOURADOQUARA", "FORMOSO", "GRUPIARA",
+    "LUIZLANDIA DO OESTE", "NATALANDIA", "RIACHINHO", "SAO GONCALO DO ABAETE",
+    "TAPIRA", "URUANA DE MINAS", "URUCUIA", "VARJAO DE MINAS", "JOÃO PINHEIRO",
+    "SANTA VITORIA", "CARNEIRINHO", "CAMPOS ALTOS", "CARMO DO PARANAIBA",
+    "CONCEICAO DAS ALAGOAS", "CONQUISTA", "COROMANDEL", "ESTRELA DO SUL", "IBIA",
+    "LAGAMAR", "PATOS DE MINAS", "BELO HORIZONTE"
+]
     }
 }
 
@@ -153,49 +145,22 @@ export const fretesRodofar = {
 
 }
 
-export const cidades = ["ABADIA DOS DOURADOS", "ARAGUARI", "ARAPORA", "ARAXA", "CAMPINA VERDE",
-            "CANAPOLIS", "CAPINOPOLIS", "CARMO DO PARANAIBA", "CARNEIRINHO", "CENTRALINA",
-            "CONCEICAO DAS ALAGOAS", "CONQUISTA", "COROMANDEL", "CRUZEIRO DA FORTALEZA",
-            "DELTA", "FRONTEIRA", "FRUTAL", "GUIMARANIA", "GURINHATA", "IBIA",
-            "INDIANOPOLIS", "IPIACU", "IRAI DE MINAS", "ITAPAGIPE", "ITUIUTABA",
-            "ITURAMA", "LAGOA FORMOSA", "LIMEIRA D'OESTE", "MONTE ALEGRE DE MINAS",
-            "MONTE CARMELO", "NOVA PONTE", "PATOS DE MINAS", "PATROCINIO", "PEDRINOPOLIS",
-            "PERDIZES", "PIRAJUBA", "PLANURA", "PRATA", "RIO PARANAIBA", "ROMARIA",
-            "SACRAMENTO", "SANTA JULIANA", "SANTA VITORIA", "SAO FRANCISCO DE SALES", "SAO GOTARDO", "ARAPUA", "CACHOEIRA DOURADA", "CAMPO FLORIDO", "CAMPOS ALTOS", "CASCALHO RICO",
-            "COMENDADOR GOMES", "ESTRELA DO SUL", "GUARDA-MOR", "JOÃO PINHEIRO", "LAGAMAR",
-            "LAGOA GRANDE", "MATUTINA", "PARACATU", "PRATINHA", "PRESIDENTE OLEGARIO",
-            "SANTA ROSA DA SERRA", "TIROS", "UNAI", "VAZANTE", "RIO PARANAIBA (Abaeté dos Mendes)",
-            "CRUZEIRO DA FORTALEZA (Brejo Bonito)", "PATROCINIO (São João da Serra Negra)",
-            "UBERLANDIA (Tapuirama)", "CAMPINA VERDE (Honorópolis)", "LAGOA FORMOSA (Monjolinho de Minas)",
-            "PATROCINIO (Silvano)", "UBERABA",
-            "UBERLANDIA (Cruzeiro dos Peixoto)", "VAZANTE (Claro de Minas)", "AGUA COMPRIDA", "FRUTAL (Aparecida de Minas)", "ARINOS", "BONFINOPOLIS DE MINAS",
-            "BRASILANDIA DE MINAS", "BURITIS", "CABECEIRA GRANDE", "CHAPADA GAUCHA",
-            "ARAGUARI (Amanhece)", "DOM BOSCO", "DOURADOQUARA", "FORMOSO", "GRUPIARA",
-            "LUIZLANDIA DO OESTE", "NATALANDIA", "RIACHINHO", "SAO GONCALO DO ABAETE",
-            "TAPIRA", "URUANA DE MINAS", "URUCUIA", "VARJAO DE MINAS", "JOÃO PINHEIRO (Veredas)",
-            "JOÃO PINHEIRO (Canabrava)", "SANTA VITORIA (Chaveslandia)", "CARNEIRINHO (São Sebastião do Pontal)",
-            "ARAGUARI (Florestina)", "ARAGUARI (Piracaiba)", "ARINOS (Pic Sagarana)",
-            "ARINOS (Vila Bom Jesus)", "BURITIS (Serra Bonita)", "CAMPOS ALTOS (São Jerônimo dos Poções)",
-            "CARMO DO PARANAIBA (Quintinos)", "CARNEIRINHO (Estrela da Barra)", "CONCEICAO DAS ALAGOAS (Poncianos)",
-            "CONQUISTA (Guaxima)", "CONQUISTA (Jubai)", "COROMANDEL (Alegre)", "COROMANDEL (Santa Rosa dos Dourados)",
-            "ESTRELA DO SUL (Chapada de Minas)", "ESTRELA DO SUL (Santa Rita da Estrela)", "IBIA (Argentia)",
-            "IBIA (Tobati)", "JOÃO PINHEIRO (Caatinga)", "JOÃO PINHEIRO (Olhos D'agua do Oeste)",
-            "JOÃO PINHEIRO (Santa Luzia da Serra)", "LAGAMAR (São Braz)", "PATOS DE MINAS (Bom Sucesso de Patos)",
-            "PATOS DE MINAS (Chumbo)", "PATOS DE MINAS (Major Porto)", "PATOS DE MINAS (Pilar)", "PATOS DE MINAS (Pindalbas)", "PATOS DE MINAS (Santana de Patos)",
-            "PRATA (Jardinésia)", "PRATA (Patrimonio)", 
-            "PRESIDENTE OLEGARIO (Galena)",
-            "PRESIDENTE OLEGARIO (Ponte Firme)",
-            "SACRAMENTO (Desemboque)",
-            "SANTA JULIANA (Zelândia)",
-            "SANTA JULIANA (Perdilândia)",
-            "SÃO GONÇALO DO ABAETE (Canoeiros)",
-            "SERRA DO SALITRE (Catiara)",
-            "TIROS (Canastrão)",
-            "UBERLANDIA (Martinesia)",
-            "UBERLANDIA (Miraporanga)", 
-            "UNAI (Garapuava)",
-            "UNAI (Palmeirinha)",
-            "UNAI (Santo Antonio do Boqueirão)",
-            "CONTAGEM",
-            "BETIM", 
-            "BELO HORIZONTE"]
+export const cidades = [
+    "ABADIA DOS DOURADOS", "ARAGUARI", "ARAPORA", "ARAXA", "CAMPINA VERDE",
+    "CANAPOLIS", "CAPINOPOLIS", "CARMO DO PARANAIBA", "CARNEIRINHO", "CENTRALINA",
+    "CONCEICAO DAS ALAGOAS", "CONQUISTA", "COROMANDEL", "CRUZEIRO DA FORTALEZA",
+    "DELTA", "FRONTEIRA", "FRUTAL", "GUIMARANIA", "GURINHATA", "IBIA",
+    "INDIANOPOLIS", "IPIACU", "IRAI DE MINAS", "ITAPAGIPE", "ITUIUTABA",
+    "ITURAMA", "LAGOA FORMOSA", "LIMEIRA D'OESTE", "MONTE ALEGRE DE MINAS",
+    "MONTE CARMELO", "NOVA PONTE", "PATOS DE MINAS", "PATROCINIO", "PEDRINOPOLIS",
+    "PERDIZES", "PIRAJUBA", "PLANURA", "PRATA", "RIO PARANAIBA", "ROMARIA",
+    "SACRAMENTO", "SANTA JULIANA", "SANTA VITORIA", "SAO FRANCISCO DE SALES", "SAO GOTARDO",
+    "ARAPUA", "CACHOEIRA DOURADA", "CAMPO FLORIDO", "CAMPOS ALTOS", "CASCALHO RICO",
+    "COMENDADOR GOMES", "ESTRELA DO SUL", "GUARDA-MOR", "JOÃO PINHEIRO", "LAGAMAR",
+    "LAGOA GRANDE", "MATUTINA", "PARACATU", "PRATINHA", "PRESIDENTE OLEGARIO",
+    "SANTA ROSA DA SERRA", "TIROS", "UNAI", "VAZANTE", "UBERABA",
+    "AGUA COMPRIDA", "ARINOS", "BONFINOPOLIS DE MINAS", "BRASILANDIA DE MINAS", "BURITIS",
+    "CABECEIRA GRANDE", "CHAPADA GAUCHA", "DOM BOSCO", "DOURADOQUARA", "FORMOSO",
+    "GRUPIARA", "LUIZLANDIA DO OESTE", "NATALANDIA", "RIACHINHO", "SAO GONCALO DO ABAETE",
+    "TAPIRA", "URUANA DE MINAS", "URUCUIA", "VARJAO DE MINAS", "CONTAGEM", "BETIM", "BELO HORIZONTE"
+]

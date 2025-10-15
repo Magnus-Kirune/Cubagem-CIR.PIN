@@ -167,7 +167,7 @@ export const cidades = ["ABADIA DOS DOURADOS", "ARAGUARI", "ARAPORA", "ARAXA", "
             "SANTA ROSA DA SERRA", "TIROS", "UNAI", "VAZANTE", "RIO PARANAIBA (Abaeté dos Mendes)",
             "CRUZEIRO DA FORTALEZA (Brejo Bonito)", "PATROCINIO (São João da Serra Negra)",
             "UBERLANDIA (Tapuirama)", "CAMPINA VERDE (Honorópolis)", "LAGOA FORMOSA (Monjolinho de Minas)",
-            "PATROCINIO (Silvano)", "UBERABA (Ponte Baixa)", "UBERABA (Ponte Alta)",
+            "PATROCINIO (Silvano)", "UBERABA",
             "UBERLANDIA (Cruzeiro dos Peixoto)", "VAZANTE (Claro de Minas)", "AGUA COMPRIDA", "FRUTAL (Aparecida de Minas)", "ARINOS", "BONFINOPOLIS DE MINAS",
             "BRASILANDIA DE MINAS", "BURITIS", "CABECEIRA GRANDE", "CHAPADA GAUCHA",
             "ARAGUARI (Amanhece)", "DOM BOSCO", "DOURADOQUARA", "FORMOSO", "GRUPIARA",
